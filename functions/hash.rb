@@ -4,4 +4,4 @@ meals = {
   "dinner" => "steak" }
   meals = meals.sort_by do |meal|
   end
-puts meals
+puts meals[0]

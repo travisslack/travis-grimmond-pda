@@ -1,6 +1,5 @@
-fruits = ['apple', 'banana', 'grape', 'orange']
-  fruits = fruits.sort_by do |fruit|
+names = ['travis', 'david', 'george', 'kyle']
+  names = names.sort_by do |name|
   end
 
-puts fruits
-
+puts names[0]
