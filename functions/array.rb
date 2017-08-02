@@ -1,4 +1,6 @@
-def setup
-  fruit = ['apple', 'banana', 'grape', 'orange']
-  fruit.sample
-end
+fruits = ['apple', 'banana', 'grape', 'orange']
+  fruits = fruits.sort_by do |fruit|
+  end
+
+puts fruits
+
