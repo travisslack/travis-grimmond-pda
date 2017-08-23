@@ -1,5 +1,13 @@
-names = ['travis', 'david', 'george', 'kyle']
-  names = names.sort_by do |name|
-  end
 
-puts names[0]
+
+
+# make an array filled with strings which are names
+# print out the names in reverse 
+names = ['travis', 'david', 'george', 'kyle']
+  puts names = names.reverse 
+
+
+
+
+ 
+

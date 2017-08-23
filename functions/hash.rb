@@ -2,6 +2,5 @@ meals = {
   "breakfast" => "yoghurt",
   "lunch" => "roll", 
   "dinner" => "steak" }
-  meals = meals.sort_by do |meal|
-  end
-puts meals[0]
+  meals.each {|key, value| puts "#{key} is #{value}" }
+  puts meals
